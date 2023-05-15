@@ -16,11 +16,14 @@
         color: $antiflash-white;
     }
 
+    p {
+        margin-left: 10px;
+    }
+
     &-wrapper {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        height: 200px;
         padding: 3em 0;
         @media screen and (min-width: 790px) {
             max-width: 1200px;

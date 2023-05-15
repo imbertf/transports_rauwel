@@ -35,14 +35,14 @@ const HomePage = () => {
                         icon={<BsTruck />}
                         title={"Transport de marchandises"}
                         text={
-                            "Vous avez besoin de livrer des palettes ou du materiel?  Contactez Transports Rauwel et recevez un devis gratuit. Livraison en temps avec une capacité de transport de 8 palettes 80xm x 120cm ou 20m³ sur toute la France. L'aide au chargement est comprise dans l'offre"
+                            "Vous avez besoin de livrer des palettes ou du materiel?  Contactez Transports Rauwel et recevez un devis gratuit. Livraison en temps avec une capacité de transport de 8 palettes 80cm x 120cm ou 20m³ et hayon     sur toute la France. L'aide au chargement est comprise dans l'offre"
                         }
                     />
                     <Card
                         icon={<BsBoxSeam />}
                         title={"Déménagement"}
                         text={
-                            "Déménagement éfficace, rapide et personalisé. J'effectue les déménagements sur l'ensemble de la France. Deux offres disponibles: Standard ou Premium. Avec l'offre Premium deux personnes supplémentaires seront la pour vous aider"
+                            "Déménagement éfficace, rapide et personalisé. J'effectue les déménagements sur l'ensemble de la France. Deux offres disponibles: Standard ou Premium. Avec l'offre Premium deux personnes supplémentaires seront la pour vous aider. Possibilité de faire une estimation sur place dans un rayon de 40km autour de l'entreprise"
                         }
                     />
                     <Card
@@ -118,7 +118,7 @@ const HomePage = () => {
                             />
                         </div>
                         <div className="materiel-card-title">
-                            <h3>Iveco 7,5T</h3>
+                            <h3>Iveco Daily</h3>
                             <a href="#capacites">
                                 <BsInfoSquare />
                             </a>

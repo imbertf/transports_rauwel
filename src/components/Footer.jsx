@@ -20,11 +20,14 @@ const Footer = () => {
                         <RxEnvelopeClosed />
                         transports.rauwel@hotmail.com
                     </a>
+                    <p>94 Rue Lazare Carnot, 62790 Leforest</p>
+                    <p>N° de siret 91074654400014</p>
+                    <p>TVA : FR01910746544</p>
                 </div>
                 <div className="footer-webDeveloper">
-                    <p>
+                    <h3>
                         Web site created by <span>©️imbertf</span>
-                    </p>
+                    </h3>
                     <a href="mailto:f.imbert4@gmail.com">
                         {" "}
                         <RxEnvelopeClosed />
