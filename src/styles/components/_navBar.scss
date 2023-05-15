@@ -1,5 +1,8 @@
 .navBar {
     margin: 0 1em;
+    @media screen and (max-width: 790px) {
+        display: none;
+    }
     ul {
         display: flex;
         li {
