@@ -1,0 +1,14 @@
+.navBar {
+    margin: 0 1em;
+    ul {
+        display: flex;
+        li {
+            list-style-type: none;
+            margin: 0 1em;
+            color: $cool-gray;
+            &:hover {
+                color: $fire-engine-red;
+            }
+        }
+    }
+}

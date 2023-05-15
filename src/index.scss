@@ -1,0 +1,22 @@
+// utils
+@import "./styles/utils/fonts";
+@import "./styles/utils/colors";
+
+// base
+@import "./styles/base/base";
+
+// components
+@import "./styles/components/header";
+@import "./styles/components/footer";
+@import "./styles/components/logo";
+@import "./styles/components/menuBurger";
+@import "./styles/components/navBar";
+@import "./styles/components/contactForm";
+@import "./styles/components/card";
+@import "./styles/components/scrollToTopButton";
+@import "./styles/components/buttonCallToAction";
+
+// pages
+@import "./styles/pages/homePage";
+@import "./styles/pages/errPage";
+@import "./styles/pages/thankYouPage";

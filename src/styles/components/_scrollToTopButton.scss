@@ -1,0 +1,27 @@
+.scroll-top-button {
+    position: fixed;
+    bottom: 100px;
+    right: -20px;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+    transform: rotate(90deg);
+    display: flex;
+    align-items: center;
+    @media only screen and (max-width: 768px) {
+        right: -45px;
+    }
+
+    p {
+        color: $red-pantone;
+        margin: 0 1em;
+    }
+
+    svg {
+        transform: rotate(270deg);
+        font-size: 25px;
+
+        path {
+            color: $red-pantone;
+        }
+    }
+}

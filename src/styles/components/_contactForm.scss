@@ -1,0 +1,123 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    form {
+        width: 90%;
+        margin: 3rem 0;
+        max-width: 700px;
+        background-color: rgb(141 153 174/ 0.5);
+        padding: 0 1em;
+
+        fieldset {
+            border: none;
+            margin: 2rem 0;
+            label {
+                margin: 5px;
+                color: $antiflash-white;
+            }
+
+            legend {
+                margin: 3rem 0;
+                text-align: center;
+                font-size: 1.4em;
+                color: $antiflash-white;
+            }
+
+            .optionSelection {
+                display: flex;
+                justify-content: space-between;
+                input {
+                    outline-color: green;
+                }
+            }
+        }
+
+        .textWrapper {
+            .textInput {
+                margin: 1rem 0;
+                display: flex;
+                justify-content: space-between;
+
+                label {
+                    color: $antiflash-white;
+                }
+
+                & input {
+                    width: 80%;
+                    border: 1px solid;
+                    padding: 2px 15px;
+                    text-align: center;
+                    border: none;
+                    border-radius: 3px;
+                    outline-color: green;
+                    &:hover {
+                        box-shadow: 0 0 3px $antiflash-white;
+                    }
+                }
+            }
+        }
+
+        .lieuSelectionWrapper {
+            .lieuSelection {
+                margin: 1rem 0;
+                display: flex;
+                flex-direction: column;
+
+                & label {
+                    margin: 0.5rem 0;
+                    color: $antiflash-white;
+                }
+
+                & input {
+                    width: 130px;
+                    border: 1px solid;
+                    padding: 2px 15px;
+                    text-align: center;
+                    border: none;
+                    border-radius: 3px;
+                    outline-color: green;
+                    &:hover {
+                        box-shadow: 0 0 3px $antiflash-white;
+                    }
+                }
+            }
+        }
+
+        .materielSelectionWrapper {
+            .materielSelection {
+                display: flex;
+                justify-content: space-between;
+                input {
+                    outline-color: green;
+                }
+
+                & label {
+                    margin: 5px 0;
+                    color: $antiflash-white;
+                }
+            }
+        }
+
+        .submitButton {
+            margin: 3rem 0;
+            text-align: right;
+
+            & input {
+                border: none;
+                width: 100px;
+                height: 40px;
+                border-radius: 2px;
+                background-color: $fire-engine-red;
+                color: #edf2f4;
+                outline-color: green;
+
+                &:hover {
+                    background-color: $red-pantone;
+                    transition: 200ms ease;
+                }
+            }
+        }
+    }
+}

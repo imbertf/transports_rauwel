@@ -1,0 +1,26 @@
+.thankYouPage {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h2,
+    p {
+        margin: 1em;
+    }
+
+    span {
+        color: $fire-engine-red;
+    }
+
+    a {
+        padding: 10px;
+        color: $fire-engine-red;
+        border: 1px solid $fire-engine-red;
+        &:hover {
+            background-color: $fire-engine-red;
+            color: $antiflash-white;
+        }
+    }
+}
