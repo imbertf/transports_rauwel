@@ -28,7 +28,7 @@ const HomePage = () => {
             <div className="homePage-contactForm-container">
                 <ContactForm />
             </div>
-            <a name="services" />
+            <div id="services" />
             <div className="homePage-services">
                 <div className="homePage-services-wrapper">
                     <Card
@@ -57,7 +57,7 @@ const HomePage = () => {
             </div>
 
             <div className="homePage-materiel">
-                <a name="materiels" />
+                <div id="materiels" />
                 <h2>Materiel disponibles pour tous les services</h2>
                 <p>Comment ça marche ?</p>
                 <div className="homePage-materiel-process">
@@ -149,7 +149,7 @@ const HomePage = () => {
             </div>
 
             <div className="homePage-transport">
-                <a name="capacites" />
+                <div id="capacites" />
 
                 <h3>Caractéristiques techniques</h3>
                 <div className="homePage-transport-content">
@@ -177,7 +177,7 @@ const HomePage = () => {
                 </div>
             </div>
             <div className="homePage-contact">
-                <a name="contact" />
+                <div id="contact" />
                 <div className="homePage-contact-profil">
                     <div className="homePage-contact-profil-img">
                         <img
